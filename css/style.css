@@ -105,10 +105,12 @@ html {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  margin-bottom: 25px!;
   justify-content: space-between;
 }
 .tech-img {
   width: 180px;
+  margin-right: 10px;
 }
 
 .tools-container {
@@ -151,10 +153,14 @@ html {
   display: flex;
   flex-direction: column;
   max-width: 300px;
+  padding-bottom: 10px;
+}
+.about-item > span {
+  padding-top: 5px;
 }
 .about-link {
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
 }
