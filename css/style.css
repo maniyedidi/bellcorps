@@ -36,10 +36,13 @@ html {
   background: #f5f9fd;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+}
+.home-text{
+  max-width: 400px;  
 }
 .desk-img {
   width: 500px;
@@ -100,6 +103,7 @@ html {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  justify-content: space-between;
 }
 .tech-img {
   width: 180px;
