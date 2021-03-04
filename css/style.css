@@ -41,8 +41,9 @@ html {
   padding-top: 60px;
   padding-bottom: 40px;
 }
-.home-text{
-  max-width: 400px;  
+.home-text {
+  max-width: 350px;
+  padding-right: 50px;
 }
 .desk-img {
   width: 500px;
@@ -95,6 +96,7 @@ html {
   flex-wrap: wrap;
   max-width: 900px;
   justify-content: center;
+  padding: 10px;
 }
 
 .tech-item {
@@ -102,7 +104,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   justify-content: space-between;
 }
 .tech-img {
@@ -122,6 +124,7 @@ html {
   align-items: center;
   padding-bottom: 24px;
 }
+
 .tool-img {
   width: 500px;
 }
