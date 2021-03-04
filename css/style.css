@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .logo {
   width: 40px;
@@ -29,6 +29,8 @@ html {
   padding: 0px 20px;
   cursor: pointer;
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 .home-container {
   background: #f5f9fd;
