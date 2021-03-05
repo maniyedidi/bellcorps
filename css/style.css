@@ -21,6 +21,8 @@ html {
   flex-wrap: wrap;
   align-items: center;
   height: 60px;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 .left-container {
   display: flex;
@@ -126,10 +128,13 @@ html {
   padding-bottom: 24px;
   border-bottom: 1px solid rgba(182, 175, 175, 0.23);
   margin-bottom: 10px;
+  justify-content: space-between;
+  width: 900px;
 }
 
 .tool-img {
-  width: 500px;
+  max-width: 500px;
+  width: auto;
 }
 .tool-icon {
   height: 100px;
@@ -140,11 +145,9 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 400px;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bolder;
-  padding-right: 100px;
-  margin-right: 100px;
+  width: 240px;
 }
 
 .about-container {
@@ -185,4 +188,40 @@ html {
   flex-direction: column;
   padding-bottom: 40px;
   padding-top: 60px;
+}
+
+.po-img {
+  height: 350px;
+  padding-bottom: 20px;
+}
+.portafolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  padding: 0 20px;
+}
+
+.portafolio-list {
+  display: flex;
+  align-items: center;
+}
+.portafolio-items {
+  display: flex;
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0px 20px;
+}
+.navigate-btn {
+  cursor: pointer;
+  border: 1px solid grey;
+  padding: 5px 13px;
+  background: white;
+}
+.next {
+  position: relative;
+  right: 40px;
+}
+.prev{
+  position: absolute;
 }
