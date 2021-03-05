@@ -104,8 +104,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  margin-bottom: 25px!;
+  padding: 15px;
   justify-content: space-between;
 }
 .tech-img {
@@ -125,6 +124,8 @@ html {
   display: flex;
   align-items: center;
   padding-bottom: 24px;
+  border-bottom: 1px solid rgba(182, 175, 175, 0.23);
+  margin-bottom: 10px;
 }
 
 .tool-img {
@@ -140,6 +141,10 @@ html {
   align-items: center;
   flex-direction: column;
   width: 400px;
+  font-size: 23px;
+  font-weight: bolder;
+  padding-right: 100px;
+  margin-right: 100px;
 }
 
 .about-container {
